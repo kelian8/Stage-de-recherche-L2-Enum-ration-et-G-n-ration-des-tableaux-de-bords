@@ -16,7 +16,11 @@ Implementation du premiere algo TablepréfixeToListepréfixe
 Création d'un petit programme main pour tester mes autres programmes
 Réalisation de tests de TablepréfixeToListepréfixe
 
-04/06/2025
+05/06/2025
 Implmémentation du code BorderToListeprefixe
 Ajout de commentaire à TablepréfixeToListepréfixe
 Ajout de commentaire à BorderToListeprefixe
+rassemblement des programmes dans un seul fichier appelé package_outils.cpp 
+ajout de la fonction nobord
+
+06/06/2025
