@@ -22,5 +22,6 @@ Ajout de commentaire à TablepréfixeToListepréfixe
 Ajout de commentaire à BorderToListeprefixe
 rassemblement des programmes dans un seul fichier appelé package_outils.cpp 
 ajout de la fonction nobord
+ajout de la fonction creaAlph qui créer un alphabet de n lettres
 
 06/06/2025
