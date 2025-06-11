@@ -1,38 +1,39 @@
 02/06/2025
 Réapropriation des documents, lecture et compréhension des documents.
+Rédactions d'un récapitulatif simplifier des documents pour une meilleure assimilation de ces derniers.
 Début de l'analyse des algos (entrée, sortie, fonctionnement/comportement attendu).
 
 03/06/2025
 Création de mon github
 Suite de l'analyse des algos (entrée, sortie, fonctionnement/comportement attendu).
 Création de l'algorithme "BorderToTableprefixe" en pseudo code.
-Début implémentation des algorithmes en c
+Début des implémentations des algorithmes en c.
 
 04/06/2025
-Apprentissage c++
-changement du matériel défectueux (souris)
-prise en main de c++
-Implementation du premiere algo TablepréfixeToListepréfixe
-Création d'un petit programme main pour tester mes autres programmes
-Réalisation de tests de TablepréfixeToListepréfixe
+Apprentissage c++.
+changement du matériel défectueux (souris).
+prise en main de c++.
+Implementation du premiere algo TablepréfixeToListepréfixe.
+Création d'un petit programme main pour tester mes autres programmes.
+Réalisation de tests de TablepréfixeToListepréfixe.
 
 05/06/2025
-Implmémentation du code BorderToListeprefixe
-Ajout de commentaire à TablepréfixeToListepréfixe
-Ajout de commentaire à BorderToListeprefixe
-rassemblement des programmes dans un seul fichier appelé package_outils.cpp 
-ajout de la fonction nobord
-ajout de la fonction creaAlph qui créer un alphabet de n lettres
+Implmémentation du code BorderToListeprefixe.
+Ajout de commentaire à TablepréfixeToListepréfixe.
+Ajout de commentaire à BorderToListeprefixe.
+rassemblement des programmes dans un seul fichier appelé package_outils.cpp .
+ajout de la fonction nobord.
+ajout de la fonction creaAlph qui créer un alphabet de n lettres.
 
 06/06/2025
-Implémentation de la fonction LPtoWord qui prend en entrée une liste de préfixe et un alphabet et qui donne en sortie un mot 
-Problème rencontré lors des tests, fonctionnement innatendu, début analyse et recherche du problème
+Implémentation de la fonction LPtoWord qui prend en entrée une liste de préfixe et un alphabet et qui donne en sortie un mot .
+Problème rencontré lors des tests, fonctionnement innatendu, début analyse et recherche du problème.
 
 10/06/2025
-Absence rattrapage
+Absence rattrapage.
 
 11/06/2025
-suite de la recherche du problème 
+suite de la recherche du problème .
 résolution du problème, erreur dans le document scientifique,après plusieurs tests et investigation et réanalyse de la fonction, j'ai remarqué que la fonction transforme en fait une table de bordure en mot et non une liste de préfixe en mot.
 Correction apporté au code.
-Ajout de commentaires a la fonction TBtoWord.
+Ajout de commentaires à la fonction TBtoWord.
