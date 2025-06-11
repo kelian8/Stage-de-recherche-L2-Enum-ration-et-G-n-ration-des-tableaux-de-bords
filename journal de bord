@@ -35,3 +35,4 @@ Absence rattrapage
 suite de la recherche du problème 
 résolution du problème, erreur dans le document scientifique,après plusieurs tests et investigation et réanalyse de la fonction, j'ai remarqué que la fonction transforme en fait une table de bordure en mot et non une liste de préfixe en mot.
 Correction apporté au code.
+Ajout de commentaires a la fonction TBtoWord.
