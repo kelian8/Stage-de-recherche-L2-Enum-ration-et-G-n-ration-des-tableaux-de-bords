@@ -25,3 +25,11 @@ ajout de la fonction nobord
 ajout de la fonction creaAlph qui créer un alphabet de n lettres
 
 06/06/2025
+Création de la fonction LPtoWord qui prend en entrée une liste de préfixe et un alphabet et qui donne en sortie un mot 
+Problème rencontré lors des tests, fonctionnement innatendu, début analyse et recherche du problème
+
+10/06/2025
+Absence rattrapage
+
+11/06/2025
+suite de la recherche du problème 
