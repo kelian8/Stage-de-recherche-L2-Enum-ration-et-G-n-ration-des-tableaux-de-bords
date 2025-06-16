@@ -47,7 +47,9 @@ Fin codage de BtoW en utilisant la propriété récursive
 Ajout commentaire a BtoW
 
 16/06/2025
-
+codage de LtoMinW qui prend une liste de prefixe et renvoit un mot contenant le moisn de lettres differentes possible
+et de Border 
+correction de bugs sur ces fonctions
 
 
 
