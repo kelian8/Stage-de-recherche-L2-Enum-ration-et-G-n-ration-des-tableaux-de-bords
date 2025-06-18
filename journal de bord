@@ -55,4 +55,14 @@ correction de bugs sur ces fonctions
 Fin du codage et du débogage de LtoMinW c'était pas facile, j'ai du cherché longtemps.
 Tests de la fonction LtoMinW.
 
-
+18/06/2025
+Début analyse des nouvelles questions : 
+1. pour un mot p-canonique u donné de longueur n, et un alphabet de
+taille s, déterminer une formule qui compte le nombres de mots de n
+(parmi les s^n mots possibles) qui sont dans la classe du mot u. Pour
+cela réflêchir aux positions du mot u pour lesquels vous pouvez choisir
+la lettre et au nombre de lettres possibles.
+   
+2. un algo ou formule pour calculer combien de mots p-canoniques ont
+le même border array (c'est à dire sont dans la même classe de
+b-équivalence -- autrement dit sont liés au même mot b-canonique).
