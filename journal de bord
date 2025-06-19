@@ -71,3 +71,10 @@ Travail sur papier avec des exemples.
 
 19/06/2025
 Suite des études sur la questions 1, pas beaucoup d'avancées hier, si ce n'est que les facteurs les plus important à mon avis sont la taille de l'alphabet ainsi que le nombre de lettres différents présentes dans le mot.
+La formule pour la question 1 est : pour un mot p-canonnique de v lettres différentes et un alphabet de x lettres, avec x>=v, il y a x!/(x-v)!  .
+En effet, pour le choix de la première lettre on a x possibilités, pour le choix de la seconde lettre différente on a x-1 possibilités jusqu'à arriver à la v-ième lettre differente.
+Si x=v on a alors x*x-1*...*1 et pour x>v on a alors x*x-1*...*x-v+1 , ce qui illustre bien la formule x!/(x-v)! .
+La longueur du mot n'a pas d'importance, seulement le nombre de lettres differentes contenues.
+J'ai mis du temps pour trouver un résultat si simple car j'avais commis une erreur sur le dénombrement lors d'un de mes exemples, en réalité j'avais deja la bonne formule,
+mais comme mon exemple était faux la formule me semblait fausse car elle renvoyait un résultat different de mon dénombrement manuel.
+Pourtant le raisonnement me semblait etre le bon, j'ai alors revérifier mon exemple (chose que j'aurai du faire plus tot). 
