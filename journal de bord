@@ -85,3 +85,12 @@ Le probleme venait d'une condition trop restrictive dans nobord, ce qui resultai
 Je me suis rendu compte de se problème en utilisant la fonction TBtoWord pour repondre a la question 2.
 J'ai donc du mettre de coté l'étude de la question 2, pour corriger mon code.
 Reprise de l'étude de la question 2.
+formule provisoire pour la question 2 : nblettrealphabet^((nb de 0 dans la table de bord)-1)  - les combinaisons ne correspondants pas a la table de bords.
+Codage d'une fonction TBtoPW prenant en para une table de bordure ainsi qu'un alphabet et generant la liste de tous mots p-cannonique correspondants a la table de bordures.
+Codage d'une fonction generate_string_combinations prenant en para un mot p-cannonique contenant des 0 a la place de certaines lettres et un alaphabet , qui genere toutes les combinaisons possible des elements de l'alphabet remplacants les 0.
+Pour l'instant ca ne marche pas tout à fait, je reprendrai ca lundi.
+
+
+
+
+
