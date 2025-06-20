@@ -66,7 +66,6 @@ la lettre et au nombre de lettres possibles.
 2. un algo ou formule pour calculer combien de mots p-canoniques ont
 le même border array (c'est à dire sont dans la même classe de
 b-équivalence -- autrement dit sont liés au même mot b-canonique).
-
 Travail sur papier avec des exemples.
 
 19/06/2025
@@ -78,3 +77,11 @@ La longueur du mot n'a pas d'importance, seulement le nombre de lettres differen
 J'ai mis du temps pour trouver un résultat si simple car j'avais commis une erreur sur le dénombrement lors d'un de mes exemples, en réalité j'avais deja la bonne formule,
 mais comme mon exemple était faux la formule me semblait fausse car elle renvoyait un résultat different de mon dénombrement manuel.
 Pourtant le raisonnement me semblait etre le bon, j'ai alors revérifier mon exemple (chose que j'aurai du faire plus tot). 
+
+20/06/2025
+Début de l'étude de la question 2.
+Correction de TBtoWord qui est en LPToWord et qui transforme bien une liste de prefixe en un mot et non un tableau en un mot.
+Le probleme venait d'une condition trop restrictive dans nobord, ce qui resultait un a mauvais resultat final de LPTo word.
+Je me suis rendu compte de se problème en utilisant la fonction TBtoWord pour repondre a la question 2.
+J'ai donc du mettre de coté l'étude de la question 2, pour corriger mon code.
+Reprise de l'étude de la question 2.
