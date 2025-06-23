@@ -92,7 +92,8 @@ Pour l'instant ca ne marche pas tout à fait, je reprendrai ca lundi.
 
 23/06/2025
 Correction de TBtoWord
-
+La fonction est corrigée, cependant elle ne compte pas les mots correspondants à une table de bords donc certains bords se chevauchent.
+Je vais aborder la question autrement, je vais essayer d'utiliser la propriété récursive presente dans le document.
 
 
 
