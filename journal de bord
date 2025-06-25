@@ -1,3 +1,5 @@
+
+
 02/06/2025
 Réapropriation des documents, lecture et compréhension des documents.
 Rédactions d'un récapitulatif simplifier des documents pour une meilleure assimilation de ces derniers.
@@ -95,7 +97,7 @@ Correction de TBtoWord
 La fonction est corrigée, cependant elle ne compte pas les mots correspondants à une table de bords donc certains bords se chevauchent.
 Je vais aborder la question autrement, je vais essayer d'utiliser la propriété récursive presente dans le document.
 
-23/06/2025
+24/06/2025
 Les informations importantes à prendre en compte selon moi pour répondre a la questions sont :
 - le nombre de lettres différentes minimum
 - les apparutions de nouvelles lettres doivent se faire dans l'ordre croissant 
@@ -103,6 +105,7 @@ Les informations importantes à prendre en compte selon moi pour répondre a la 
 superieur apparaisse préalablement dans le mot au moins une fois. Et que le mot respecte toujours la table de bords donnée évidement.
 (exemple : ababb et ababc ont le meme tableau de bordure [0,0,1,2,0] et la lettre c peut remplacer le dernier b en respectant bien la conition)
 
+24/06/2025
 
 
 
