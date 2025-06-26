@@ -105,9 +105,11 @@ Les informations importantes à prendre en compte selon moi pour répondre a la 
 superieur apparaisse préalablement dans le mot au moins une fois. Et que le mot respecte toujours la table de bords donnée évidement.
 (exemple : ababb et ababc ont le meme tableau de bordure [0,0,1,2,0] et la lettre c peut remplacer le dernier b en respectant bien la conition)
 
-24/06/2025
+25/06/2025
+Je suis resté un peu bloqué sur le problème.
+J'ai repris le raisonnement de l'algo WtoB pour m'aider.
 
-
+26/06/2025
 
 
 
