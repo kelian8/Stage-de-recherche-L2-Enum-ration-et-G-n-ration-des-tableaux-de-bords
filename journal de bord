@@ -110,13 +110,13 @@ Je suis resté un peu bloqué sur le problème.
 J'ai repris le raisonnement de l'algo WtoB pour m'aider.
 
 26/06/2025
-Création d'une seconde version de BtoPW.
+Création d'une seconde version de BtoPW avec l'aide d'une fonctions récursive generate_words.
 Création d'une fonctions bannedletters qui étant donné une table de bordures et un mot renvoit le tableau de lettres interdites à place en position i afin de respecter le tableau de bords
 Réalisations de tests de BtoPW.
 La fonction marche correctement. 
 
 27/06/2025
-
+Ajout de commentaires aux différente fonctions ajoutées précedemment.
 
 
 
