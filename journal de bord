@@ -111,10 +111,11 @@ J'ai repris le raisonnement de l'algo WtoB pour m'aider.
 
 26/06/2025
 Création d'une seconde version de BtoPW.
+Création d'une fonctions bannedletters qui étant donné une table de bordures et un mot renvoit le tableau de lettres interdites à place en position i afin de respecter le tableau de bords
 Réalisations de tests de BtoPW.
 La fonction marche correctement. 
 
-
+27/06/2025
 
 
 
