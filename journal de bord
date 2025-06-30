@@ -2,41 +2,40 @@
 
 02/06/2025
 Réapropriation des documents, lecture et compréhension des documents.
-Rédactions d'un récapitulatif simplifier des documents pour une meilleure assimilation de ces derniers.
+Rédactions d'un récapitulatif simplifié des documents pour une meilleure assimilation de ces derniers.
 Début de l'analyse des algos (entrée, sortie, fonctionnement/comportement attendu).
 
 03/06/2025
-Création de mon github
+Création de mon github.
 Suite de l'analyse des algos (entrée, sortie, fonctionnement/comportement attendu).
 Création de l'algorithme "BorderToTableprefixe" en pseudo code.
 Début des implémentations des algorithmes en c.
 
 04/06/2025
 Apprentissage c++.
-changement du matériel défectueux (souris).
 prise en main de c++.
-Implementation du premiere algo TablepréfixeToListepréfixe.
+Implémentation du premier algo TablepréfixeToListepréfixe.
 Création d'un petit programme main pour tester mes autres programmes.
 Réalisation de tests de TablepréfixeToListepréfixe.
 
 05/06/2025
 Implmémentation du code BorderToListeprefixe.
-Ajout de commentaire à TablepréfixeToListepréfixe.
-Ajout de commentaire à BorderToListeprefixe.
-rassemblement des programmes dans un seul fichier appelé package_outils.cpp .
-ajout de la fonction nobord.
-ajout de la fonction creaAlph qui créer un alphabet de n lettres.
+Ajout de commentaires à TablepréfixeToListepréfixe.
+Ajout de commentaires à BorderToListeprefixe.
+Rassemblement des programmes dans un seul fichier appelé package_outils.cpp .
+Ajout de la fonction nobord.
+Ajout de la fonction creaAlph qui créer un alphabet de n lettres.
 
 06/06/2025
-Implémentation de la fonction LPtoWord qui prend en entrée une liste de préfixe et un alphabet et qui donne en sortie un mot .
+Implémentation de la fonction LPtoWord qui prend en entrée une liste de préfixes et un alphabet et qui renvoit un mot .
 Problème rencontré lors des tests, fonctionnement innatendu, début analyse et recherche du problème.
 
 10/06/2025
 Absence rattrapage.
 
 11/06/2025
-suite de la recherche du problème .
-résolution du problème, erreur dans le document scientifique,après plusieurs tests et investigation et réanalyse de la fonction, j'ai remarqué que la fonction transforme en fait une table de bordure en mot et non une liste de préfixe en mot.
+Suite de la recherche du problème .
+Résolution du problème, erreur dans le document scientifique,après plusieurs tests et investigations et réanalyse de la fonction, j'ai remarqué que la fonction transforme en fait une table de bordures en mot et non une liste de préfixes en mot.
 Correction apporté au code.
 Ajout de commentaires à la fonction TBtoWord.
 
@@ -46,12 +45,12 @@ Début codage d'une première fonction WtoB en utilisant la propriété.
 
 13/06/2025
 Fin codage de BtoW en utilisant la propriété récursive
-Ajout commentaire a BtoW
+Ajout commentaires a BtoW
 
 16/06/2025
-codage de LtoMinW qui prend une liste de prefixe et renvoit un mot contenant le moisn de lettres differentes possible
-et de Border 
-correction de bugs sur ces fonctions
+codage de LtoMinW qui prend une liste de préfixes et renvoit un mot contenant le moins de lettres différentes possible
+etde Border prenant en parametre un tableau B un mot u et un caractère a, permettant de calculer la longueur du plus long bord du mot ua, où u est un mot, B est la table de bordures de u, et a est une lettre à ajouter.
+Correction de bugs sur ces fonctions.
 
 17/06/2025
 Fin du codage et du débogage de LtoMinW c'était pas facile, j'ai du cherché longtemps.
@@ -73,37 +72,37 @@ Travail sur papier avec des exemples.
 19/06/2025
 Suite des études sur la questions 1, pas beaucoup d'avancées hier, si ce n'est que les facteurs les plus important à mon avis sont la taille de l'alphabet ainsi que le nombre de lettres différents présentes dans le mot.
 La formule pour la question 1 est : pour un mot p-canonnique de v lettres différentes et un alphabet de x lettres, avec x>=v, il y a x!/(x-v)!  .
-En effet, pour le choix de la première lettre on a x possibilités, pour le choix de la seconde lettre différente on a x-1 possibilités jusqu'à arriver à la v-ième lettre differente.
+En effet, pour le choix de la première lettre on a x possibilités, pour le choix de la seconde lettre différente on a x-1 possibilités jusque à arriver à la v-ième lettre differente.
 Si x=v on a alors x*x-1*...*1 et pour x>v on a alors x*x-1*...*x-v+1 , ce qui illustre bien la formule x!/(x-v)! .
 La longueur du mot n'a pas d'importance, seulement le nombre de lettres differentes contenues.
 J'ai mis du temps pour trouver un résultat si simple car j'avais commis une erreur sur le dénombrement lors d'un de mes exemples, en réalité j'avais deja la bonne formule,
-mais comme mon exemple était faux la formule me semblait fausse car elle renvoyait un résultat different de mon dénombrement manuel.
-Pourtant le raisonnement me semblait etre le bon, j'ai alors revérifier mon exemple (chose que j'aurai du faire plus tot). 
+mais comme mon exemple était faux la formule me semblait fausse car elle renvoyait un résultat différent de mon dénombrement manuel.
+Pourtant le raisonnement me semblait etre le bon, j'ai alors re-vérifier mon exemple (chose que j'aurai du faire plus tôt). 
 
 20/06/2025
 Début de l'étude de la question 2.
-Correction de TBtoWord qui est en LPToWord et qui transforme bien une liste de prefixe en un mot et non un tableau en un mot.
-Le probleme venait d'une condition trop restrictive dans nobord, ce qui resultait un a mauvais resultat final de LPTo word.
-Je me suis rendu compte de se problème en utilisant la fonction TBtoWord pour repondre a la question 2.
+Correction de TBtoWord qui est en fait LPToWord et qui transforme bien une liste de préfixes en un mot et non un tableau en un mot.
+Le problème venait d'une condition trop restrictive dans nobord, ce qui résultait à un mauvais résultat final de LPToWord.
+Je me suis rendu compte de ce problème en utilisant la fonction TBtoWord chercher une réponse à la question 2.
 J'ai donc du mettre de coté l'étude de la question 2, pour corriger mon code.
 Reprise de l'étude de la question 2.
-formule provisoire pour la question 2 : nblettrealphabet^((nb de 0 dans la table de bord)-1)  - les combinaisons ne correspondants pas a la table de bords.
-Codage d'une fonction TBtoPW prenant en para une table de bordure ainsi qu'un alphabet et generant la liste de tous mots p-cannonique correspondants a la table de bordures.
-Codage d'une fonction generate_string_combinations prenant en para un mot p-cannonique contenant des 0 a la place de certaines lettres et un alaphabet , qui genere toutes les combinaisons possible des elements de l'alphabet remplacants les 0.
-Pour l'instant ca ne marche pas tout à fait, je reprendrai ca lundi.
+Formule provisoire pour la question 2 : nblettrealphabet^((nb de 0 dans la table de bord)-1)  - les combinaisons ne correspondants pas à la table de bords.
+Codage d'une fonction TBtoPW prenant en paramètre une table de bordures ainsi qu'un alphabet et generant la liste de tous les mots p-cannoniques correspondants a la table de bordures.
+Codage d'une fonction generate_string_combinations prenant en paramètre un mot p-cannonique contenant des 0 à la place de certaines lettres et un alaphabet , qui génère toutes les combinaisons possibles des élements de l'alphabet remplacants les 0.
+Pour l'instant ca ne marche pas tout à fait, je reprendrai cela lundi.
 
 23/06/2025
-Correction de TBtoWord
-La fonction est corrigée, cependant elle ne compte pas les mots correspondants à une table de bords donc certains bords se chevauchent.
-Je vais aborder la question autrement, je vais essayer d'utiliser la propriété récursive presente dans le document.
+Correction de TBtoWord.
+La fonction est corrigée, cependant elle ne compte pas les mots correspondants à une table de bords contenants des bords qui se chevauchent.
+Je vais aborder la question autrement, je vais essayer d'utiliser la propriété récursive présente dans le document.
 
 24/06/2025
-Les informations importantes à prendre en compte selon moi pour répondre a la questions sont :
-- le nombre de lettres différentes minimum
-- les apparutions de nouvelles lettres doivent se faire dans l'ordre croissant 
-- etudier les changements possibles des lettres continuant des bordures ou créant des 0 par une lettre superieure à condition que la première lettre inferieure a cette nouvelle lettre 
+Les informations importantes à prendre en compte selon moi pour répondre à la questions sont :
+- le nombre de lettres différentes minimum.
+- les apparitions de nouvelles lettres doivent se faire dans l'ordre croissant. 
+- étudier les changements possibles des lettres continuant des bordures ou créant des 0 par une lettre supérieure à condition que la première lettre inferieure a cette nouvelle lettre 
 superieur apparaisse préalablement dans le mot au moins une fois. Et que le mot respecte toujours la table de bords donnée évidement.
-(exemple : ababb et ababc ont le meme tableau de bordure [0,0,1,2,0] et la lettre c peut remplacer le dernier b en respectant bien la conition)
+(exemple : ababb et ababc ont le même tableau de bordures [0,0,1,2,0] et la lettre c peut remplacer le dernier b en respectant bien la condition)
 
 25/06/2025
 Je suis resté un peu bloqué sur le problème.
@@ -111,18 +110,21 @@ J'ai repris le raisonnement de l'algo WtoB pour m'aider.
 
 26/06/2025
 Création d'une seconde version de BtoPW avec l'aide d'une fonctions récursive generate_words.
-Création d'une fonctions bannedletters qui étant donné une table de bordures et un mot renvoit le tableau de lettres interdites à place en position i afin de respecter le tableau de bords
+Création d'une fonctions bannedletters qui étant donné une table de bordures et un mot renvoit le tableau de lettres interdites à placer en position i afin de respecter le tableau de bordures.
 Réalisations de tests de BtoPW.
 La fonction marche correctement. 
 
 27/06/2025
 Ajout de commentaires aux différente fonctions ajoutées précedemment.
-Début de la recherche pour réaliser une fonction similaire mais qui prend en entrée une liste de préfixe et qui réalise la même chose sans passer par une table de bordure.
+Début de la recherche pour réaliser une fonction similaire mais qui prend en entrée une liste de préfixes et qui réalise la même chose sans passer par une table de bordures.
 
 
 30/06/2025
 Dernier jour de stage.
-
+Ajout de quelques commentaires oubliés au code.
+Importation de tous les fichiers dans le github.
+Rédaction du README.
+Corrections des fautes d'orthographes.
 
 
 
