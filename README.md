@@ -2,7 +2,7 @@
 
 Ce github contient : 
 
--Un fichier d'en tête "package_outils.cpp" contenant des méthodes permettant de manipuler des tables de bords, des tables de préfixes, des listes de préfixes, des listes de préfixes ainsi   que des mots.
+-Un fichier d'en tête "package_outils.cpp" contenant des méthodes permettant de manipuler des tables de bords, des tables de préfixes, des listes de préfixes ainsi   que des mots.
   Chaque méthode est commentée afin de comprendre comment elle fonctionne et quelle est la logique suivie.
 
 -Un fichier "main.cpp" permettant de réaliser quelques tests.
