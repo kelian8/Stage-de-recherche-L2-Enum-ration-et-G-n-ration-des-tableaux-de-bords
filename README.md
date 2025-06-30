@@ -1,4 +1,4 @@
-# Stage-de-recherche-L2-Enum-ration-et-G-n-ration-des-tableaux-de-bords
+# Stage-de-recherche-L2-Enumération-et-Génération-des-tableaux-de-bords
 
 Ce github contient : 
 
