@@ -13,7 +13,7 @@ Ce github contient :
 
 -Un document scientifique sur lequel j'ai pu m'appuyer, et que j'ai su compléter grâce à mes recherches personnelles, afin de réaliser mon travail. 
 
-
+Pour réaliser les étapes suivante, il faut que "package_outils.cpp" et "main.cpp" se trouvent dans le même répertoire.
 Pour compiler "package_outils.cpp", il faut ouvrir un terminal dans le répertoire où se situe "package_outils.cpp" et taper : g++ -c package_outils.cpp.
 Ensuite pour créer un exécutable avec "main.cpp", il faut, dans ce même terminal, taper : g++ main.cpp -o main.
 Puis pour exécuter le main il faut taper ./main, dans un terminal se trouvant dans le répertoire où est contenu l'exécutable.
