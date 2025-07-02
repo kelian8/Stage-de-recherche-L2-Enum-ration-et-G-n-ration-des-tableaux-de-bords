@@ -7,7 +7,7 @@ Ce github contient :
 
 -Un fichier "main.cpp" permettant de réaliser quelques tests.
 
--Un fichier "Travail_infructueux.cpp" dans lequel, nous pouvons retrouver quelques tentatives et approches de créations de fonctions, qui m'ont parfois permis de     mieux comprendre certaines choses et aboutir à une solutions fonctionnelle.
+-Un fichier "Travail_infructueux.cpp" dans lequel, nous pouvons retrouver quelques tentatives et approches de créations de fonctions, qui m'ont parfois permis de     mieux comprendre certaines choses et aboutir à une solution fonctionnelle.
 
 -Un journal de bord, permettant de suivre mes avancées à un rythme journalier.
 
