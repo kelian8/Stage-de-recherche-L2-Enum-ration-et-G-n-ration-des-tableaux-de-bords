@@ -75,7 +75,7 @@ std::vector<std::string> creaAlph(int n){
 
 ///////////////////
 
-//fonction permettant de renvoyer la première lettre la première à ajouter au mot, contenue dans l'aphabet permettant de créer un 0 dans la table de bords 
+//fonction permettant de renvoyer la première lettre contenue dans l'aphabet permettant de créer un 0 dans la table de bords donnée  
 std::string nobord(std::vector<std::string> w, std::vector<std::string> alphabet) {
     if (w.empty()) {
         return alphabet.size() > 0 ? alphabet[0] : "alphabet trop petit";
