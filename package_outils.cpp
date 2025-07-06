@@ -4,7 +4,7 @@
 #include <iostream>
 #include <unordered_set>
 
-//fonction permettant de passer d'une table de bordures à  une table de préfixes
+//fonction permettant de passer d'une table de bordures à une liste de préfixes
 std::vector<int> BorderToPlist(std::vector<int> b){
   std::vector<int> L; //liste vide à renvoyer qui servira de  resultat
   int l; //permet de stocker la valeur de b a l'indice i
